@@ -42,14 +42,15 @@
 
 /* [Knob Size] */
 //Outside diameter of the knob
-knob_dia = 28;
+knob_dia = 24;
 
 //Knob height
-knob_height = 20;
+knob_height = 9;
 
 /* [Hole Size] */
 //Hold diameter, for threaded bar
-hole_dia = 8;
+// ALMOST hole_dia = 20.4;
+hole_dia = 20.6;
 
 /* [Cutback Around Nut] */
 //Diameter of cut out around the hex nut
@@ -60,23 +61,23 @@ cutback_depth = 1.3;
 
 /* [Metric ISO Nut Sizing] */
 //ISO Nut Size
-nut_radius = 8;
+nut_radius = 0;
 
 //Depth of the nut cavity
-nut_depth = 6;
+nut_depth = 0;
 
 /* [Knurly Params] */
 //Where to cut off the knurled section (top and bottom)
 knurl_cutoff = knob_height-2;
 
 //Width of each knurled grips
-knurl_width = 7;
+knurl_width = 5;
 
 //Height of each knurled grips
-knurl_height = 5;
+knurl_height = 2;
 
 //Depth of each knurled grips
-knurl_depth = 2;
+knurl_depth = 1;
 
 //Smoothing amount
 knurl_smooth_amount = 20;
